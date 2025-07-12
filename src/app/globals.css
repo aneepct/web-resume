@@ -19,16 +19,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #1a1a2e;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
+  background: #16213e;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a8a8a8;
+  background: #0f3460;
 }
 
 /* Smooth animations */
@@ -42,6 +42,38 @@ button:focus,
 input:focus,
 textarea:focus,
 a:focus {
-  outline: 2px solid #3b82f6;
+  outline: 2px solid #00d4ff;
   outline-offset: 2px;
+}
+
+/* AI-themed animations */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.6);
+  }
+}
+
+@keyframes neural-network {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.ai-gradient {
+  background: linear-gradient(-45deg, #0f0f23, #16213e, #0f3460, #533a7b);
+  background-size: 400% 400%;
+  animation: neural-network 15s ease infinite;
+}
+
+.ai-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
 }
