@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   swcMinify: false,
+  compiler: {
+    removeConsole: false,
+  },
   experimental: {
-    esmExternals: false
+    esmExternals: false,
+    forceSwcTransforms: false
   }
 }
 
