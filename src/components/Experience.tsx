@@ -91,14 +91,60 @@ export default function Experience() {
           <div className="space-y-8">
             {experiences.map((exp, index) => (
               <div key={index} className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-lg shadow-lg border border-cyan-500/20 p-8 hover:shadow-xl hover:border-cyan-400/40 transition-all">
-                <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+                <div className="mb-6">
                   <div>
-                    <h3 className="text-2xl font-semibold text-white mb-2">
+                    <h3 className="text-2xl font-bold text-white mb-3 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
                       {exp.title}
                     </h3>
-                    <div className="flex items-center gap-4 text-gray-300 mb-2">
-                      <span className="font-medium text-cyan-400">{exp.company}</span>
-                      <div className="flex items-center gap-1">
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+                      <div className="flex flex-col sm:flex-row sm:items-center gap-3">
+                        <span className="text-lg font-semibold text-cyan-400 bg-cyan-400/10 px-3 py-1 rounded-lg border border-cyan-500/30">
+                          {exp.company}
+                        </span>
+                        <div className="flex items-center gap-2 text-gray-300">
+                          <MapPin size={16} className="text-cyan-400" />
+                          <span>{exp.location}</span>
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2 text-gray-400 bg-gray-800/50 px-3 py-1 rounded-lg border border-gray-600/30">
+                        <Calendar size={16} className="text-cyan-400" />
+                        <span className="font-medium">{exp.period}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="mb-6">
+                  <h4 className="text-lg font-semibold text-white mb-3 flex items-center gap-2">
+                    <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                    Key Responsibilities & Achievements
+                  </h4>
+                  <ul className="space-y-3">
+                    {exp.description.map((item, idx) => (
+                      <li key={idx} className="text-gray-300 flex items-start gap-3 leading-relaxed">
+                        <span className="text-cyan-400 mt-1.5 text-lg">•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                
+                <div>
+                  <h4 className="text-lg font-semibold text-white mb-3 flex items-center gap-2">
+                    <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                    Technologies & Skills
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {exp.technologies.map((tech, idx) => (
+                      <span 
+                        key={idx}
+                        className="px-3 py-1.5 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 text-cyan-300 border border-cyan-500/30 rounded-full text-sm font-medium hover:from-cyan-500/30 hover:to-blue-500/30 transition-all"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
                         <MapPin size={16} />
                         <span>{exp.location}</span>
                       </div>
