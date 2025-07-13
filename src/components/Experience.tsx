@@ -2,43 +2,80 @@ import { Calendar, MapPin, ExternalLink } from 'lucide-react'
 
 const experiences = [
   {
+    title: "Senior Technical Lead",
+    company: "LMNTO PERFORMANCE INFORMATION TECHNOLOGY",
+    location: "Dubai, United Arab Emirates",
+    period: "Apr 2022 - Present · 3 yrs 4 mos",
+    description: [
+      "Drive significant advancements in digital transformation across various sectors, including Web3 and Blockchain technologies",
+      "Lead cross-functional teams to execute high-impact digital transformations in IoT and Web3, enhancing operational efficiency",
+      "Spearhead the development of innovative architectures, transforming monolithic systems to microservices, resulting in increase in system performance",
+      "Successfully orchestrated digital transformations that significantly improved system performance and operational efficiency"
+    ],
+    technologies: ["Web3", "Blockchain", "IoT", "Microservices", "Digital Transformation", "System Architecture"]
+  },
+  {
+    title: "Technical Lead",
+    company: "Bites Worldwide",
+    location: "Dubai, United Arab Emirates",
+    period: "Jun 2019 - Apr 2022 · 2 yrs 11 mos",
+    description: [
+      "Directed a cross-functional team to elevate the development and deployment of web and mobile applications",
+      "Led a cross-functional team in enhancing web and mobile application development, focusing on DevOps practices",
+      "Spearheaded the development of a high-performance trading platform for both Crypto and Forex markets",
+      "Implemented streamlined deployment processes, resulting in reduction in time-to-market for new features",
+      "Enhanced DevOps practices, resulting in faster deployment cycles and improved team collaboration"
+    ],
+    technologies: ["Mobile Applications", "Web Development", "DevOps", "Trading Platforms", "Crypto", "Forex"]
+  },
+  {
     title: "Senior Software Engineer",
-    company: "Tech Solutions Inc.",
-    location: "Dubai, UAE",
-    period: "2022 - Present",
+    company: "Objects By Design",
+    location: "New York (Remote Working)",
+    period: "2018 - 2019",
     description: [
-      "Led development of microservices architecture serving 1M+ users",
-      "Implemented CI/CD pipelines reducing deployment time by 60%",
-      "Mentored junior developers and conducted code reviews",
-      "Collaborated with cross-functional teams to deliver high-quality solutions"
+      "Focused on innovative solutions for home security and educational applications",
+      "Led the development of a mobile app using Flutter, enhancing user experience in online learning",
+      "Improved the Google Cloud Client Library for Python, which streamlined data management processes for better performance",
+      "Developed a comprehensive Home Security System to enhance user data tracking through advanced analytics and machine learning algorithms"
     ],
-    technologies: ["React", "Node.js", "AWS", "Docker", "Kubernetes"]
+    technologies: ["Flutter", "Python", "Google Cloud", "Machine Learning", "Mobile Development", "Security Systems"]
   },
   {
-    title: "Full Stack Developer",
-    company: "Digital Innovations Ltd.",
-    location: "Dubai, UAE",
-    period: "2020 - 2022",
+    title: "Software Engineer",
+    company: "Wingreens Technologies",
+    location: "India",
+    period: "2016 - 2018",
     description: [
-      "Developed and maintained web applications using modern frameworks",
-      "Optimized database queries improving performance by 40%",
-      "Integrated third-party APIs and payment gateways",
-      "Participated in agile development processes"
+      "Specialized in Laravel and Django frameworks for robust web application development",
+      "Enhanced user experience and ensuring seamless integration across platforms",
+      "Developed and maintained web applications using Laravel PHP and Django Python Frameworks, enhancing system efficiency",
+      "Designed and implemented RESTful APIs with Django, improving data accessibility and integration",
+      "Collaborated with cross-functional teams to deliver high-quality software solutions, contributing to project success"
     ],
-    technologies: ["Vue.js", "Python", "PostgreSQL", "Redis", "GCP"]
+    technologies: ["Laravel", "Django", "PHP", "Python", "RESTful APIs", "Web Development"]
   },
   {
-    title: "Software Developer",
-    company: "StartupTech",
-    location: "Mumbai, India",
-    period: "2018 - 2020",
+    title: "Graduate Trainee",
+    company: "Air India",
+    location: "Mumbai",
+    period: "Jul 2013 - Jul 2013 · 1 mo",
     description: [
-      "Built responsive web applications from scratch",
-      "Implemented automated testing reducing bugs by 50%",
-      "Worked closely with designers to create pixel-perfect UIs",
-      "Contributed to technical documentation and best practices"
+      "Professional training at Air India Limited as part of graduate development program",
+      "Gained exposure to aviation industry operations and technical systems"
     ],
-    technologies: ["Angular", "Java", "MySQL", "Jenkins", "Azure"]
+    technologies: ["Aviation Systems", "Technical Operations"]
+  },
+  {
+    title: "Industrial Trainee",
+    company: "Essar Group",
+    location: "Daman",
+    period: "Jun 2012 - Jul 2012 · 2 mos",
+    description: [
+      "Industrial training at Essar Group focusing on engineering processes and industrial operations",
+      "Hands-on experience with industrial systems and manufacturing processes"
+    ],
+    technologies: ["Industrial Systems", "Manufacturing", "Engineering Processes"]
   }
 ]
 

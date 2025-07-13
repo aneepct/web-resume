@@ -2,20 +2,28 @@ import { GraduationCap, Award, Calendar } from 'lucide-react'
 
 const education = [
   {
-    degree: "Bachelor of Engineering in Computer Science",
-    institution: "University of Technology",
-    location: "Mumbai, India",
-    period: "2014 - 2018",
-    grade: "First Class with Distinction",
-    description: "Specialized in software engineering, algorithms, and data structures. Active member of the coding club and participated in various hackathons."
+    degree: "Bachelor of Technology (B.Tech.), Aerospace, Aeronautical and Astronautical/Space Engineering",
+    institution: "Indira Gandhi National Open University",
+    location: "India",
+    period: "2010 - 2014",
+    grade: "First Class",
+    description: "Specialized in Aerospace Engineering with focus on aerodynamics and space technology. Active participation in robotics workshops and space expedition astronaut workshops. Completed projects in aerodynamics design and orbital transfer vehicle propulsion systems."
   },
   {
-    degree: "Higher Secondary Certificate",
-    institution: "Science College",
-    location: "Mumbai, India", 
-    period: "2012 - 2014",
-    grade: "92%",
-    description: "Focused on Mathematics, Physics, and Computer Science. Secured top 5% ranking in state board examinations."
+    degree: "Engineer's degree, Electronics and Telecommunication",
+    institution: "The Institute of Electronics and Telecommunication Engineers",
+    location: "India", 
+    period: "2006 - 2009",
+    grade: "First Class",
+    description: "Focused on Electronics and Telecommunication engineering with hands-on experience in conveyor belt controlling systems and embedded technologies."
+  },
+  {
+    degree: "10th, SSC",
+    institution: "L.D.Highschool, Sachin",
+    location: "India",
+    period: "1996 - 2005",
+    grade: "Distinction",
+    description: "Completed secondary education with strong foundation in mathematics and science subjects."
   }
 ]
 
