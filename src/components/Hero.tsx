@@ -47,11 +47,11 @@ export default function Hero() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={18} />
-                <span>+971-XX-XXX-XXXX</span>
+                <span>+971-58-995-7670</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={18} />
-                <span>aneep.tandel@email.com</span>
+                <span>aneepct@live.com</span>
               </div>
             </div>
 
