@@ -57,7 +57,7 @@ export default function Contact() {
                 <h4 className="font-semibold text-white mb-4">Follow Me</h4>
                 <div className="flex gap-4">
                   <a 
-                    href="https://ae.linkedin.com/in/aneep-tandel-393b3660"
+                    href="https://www.linkedin.com/in/aneep-tandel-393b3660/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-lg flex items-center justify-center hover:from-cyan-600 hover:to-blue-700 transition-all ai-glow"
@@ -65,7 +65,9 @@ export default function Contact() {
                     <Linkedin size={24} />
                   </a>
                   <a 
-                    href="#"
+                    href="https://github.com/aneepct"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-12 h-12 bg-gradient-to-r from-gray-700 to-gray-600 text-white rounded-lg flex items-center justify-center hover:from-gray-600 hover:to-gray-500 transition-all"
                   >
                     <Github size={24} />

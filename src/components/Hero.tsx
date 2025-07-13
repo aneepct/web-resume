@@ -57,7 +57,7 @@ export default function Hero() {
 
             <div className="flex gap-4 mt-6">
               <a 
-                href="https://ae.linkedin.com/in/aneep-tandel-393b3660" 
+                href="https://www.linkedin.com/in/aneep-tandel-393b3660/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-white/10 backdrop-blur-sm rounded-full shadow-md hover:shadow-lg transition-all text-cyan-400 hover:text-cyan-300 hover:bg-white/20"
@@ -65,7 +65,9 @@ export default function Hero() {
                 <Linkedin size={24} />
               </a>
               <a 
-                href="#" 
+                href="https://github.com/aneepct"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-3 bg-white/10 backdrop-blur-sm rounded-full shadow-md hover:shadow-lg transition-all text-gray-300 hover:text-white hover:bg-white/20"
               >
                 <Github size={24} />
