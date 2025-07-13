@@ -144,5 +144,12 @@ export default function Experience() {
                       </span>
                     ))}
                   </div>
-}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  )
 }
