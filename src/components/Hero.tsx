@@ -19,21 +19,24 @@ export default function Hero() {
               Aneep Tandel
             </h1>
             <h2 className="text-2xl lg:text-3xl text-cyan-400 mb-6 font-medium">
-              Senior Software Engineer
+              IT Tech Lead
             </h2>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Passionate software engineer with expertise in full-stack development, 
-              cloud technologies, and building scalable applications that drive business growth.
+              IT Tech Lead with expertise in cloud-native architectures, driving scalable solutions and innovation, delivering Web3 & Blockchain solutions, leading with cross-functional expertise
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <button className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-3 rounded-lg hover:from-cyan-600 hover:to-blue-700 transition-all ai-glow flex items-center justify-center gap-2">
+              <a 
+                href="/Aneep_Tandel.pdf" 
+                download 
+                className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-3 rounded-lg hover:from-cyan-600 hover:to-blue-700 transition-all ai-glow flex items-center justify-center gap-2 cursor-pointer"
+              >
                 <Download size={20} />
                 Download Resume
-              </button>
+              </a>
               <a 
                 href="#contact" 
-                className="border-2 border-cyan-400 text-cyan-400 px-8 py-3 rounded-lg hover:bg-cyan-400 hover:text-gray-900 transition-colors flex items-center justify-center gap-2"
+                className="border-2 border-cyan-400 text-cyan-400 px-8 py-3 rounded-lg hover:bg-cyan-400 hover:text-gray-900 transition-colors flex items-center justify-center gap-2 cursor-pointer"
               >
                 <Mail size={20} />
                 Get In Touch

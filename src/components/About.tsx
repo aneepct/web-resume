@@ -31,7 +31,7 @@ export default function About() {
             <div className="space-y-6">
               <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-6 rounded-lg border border-cyan-500/20">
                 <h4 className="font-semibold text-white mb-2">Years of Experience</h4>
-                <p className="text-3xl font-bold text-cyan-400">8+</p>
+                <p className="text-3xl font-bold text-cyan-400">10+</p>
               </div>
               
               <div className="bg-gradient-to-r from-gray-800 to-gray-700 p-6 rounded-lg border border-cyan-500/20">

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Aneep Tandel - Senior Software Engineer',
-  description: 'Professional resume and portfolio of Aneep Tandel, Senior Software Engineer specializing in full-stack development and cloud technologies.',
+  description: 'IT Tech Lead with expertise in cloud-native architectures, driving scalable solutions and innovation, delivering Web3 & Blockchain solutions, leading with cross-functional expertise',
   keywords: 'software engineer, full-stack developer, react, node.js, aws, dubai, uae',
   authors: [{ name: 'Aneep Tandel' }],
   openGraph: {
