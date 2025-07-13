@@ -144,42 +144,5 @@ export default function Experience() {
                       </span>
                     ))}
                   </div>
-                </div>
-                        <MapPin size={16} />
-                        <span>{exp.location}</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-2 text-gray-400">
-                    <Calendar size={16} />
-                    <span>{exp.period}</span>
-                  </div>
-                </div>
-                
-                <ul className="space-y-2 mb-6">
-                  {exp.description.map((item, idx) => (
-                    <li key={idx} className="text-gray-300 flex items-start gap-2">
-                      <span className="text-cyan-400 mt-2">•</span>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-                
-                <div className="flex flex-wrap gap-2">
-                  {exp.technologies.map((tech, idx) => (
-                    <span 
-                      key={idx}
-                      className="px-3 py-1 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 text-cyan-300 border border-cyan-500/30 rounded-full text-sm font-medium"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-  )
+}
 }
