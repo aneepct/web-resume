@@ -33,9 +33,8 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <a
-                href="https://object.aneep.tech/public/Aneep_Tandel_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/api/resume-download"
+                download
                 className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-3 rounded-lg hover:from-cyan-600 hover:to-blue-700 transition-all ai-glow flex items-center justify-center gap-2 cursor-pointer"
               >
                 <Download size={20} />
