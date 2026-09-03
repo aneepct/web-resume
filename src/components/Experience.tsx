@@ -1,81 +1,69 @@
-import { Calendar, MapPin, ExternalLink } from 'lucide-react'
+import { Calendar, MapPin } from 'lucide-react'
 
 const experiences = [
   {
-    title: "Senior Technical Lead",
-    company: "LMNTO PERFORMANCE INFORMATION TECHNOLOGY",
-    location: "Dubai, United Arab Emirates",
-    period: "Apr 2022 - Present · 3 yrs 4 mos",
+    title: 'IT Tech Lead / Senior Platform Engineer',
+    company: 'LMNTO Performance Information Technology LLC',
+    location: 'Dubai, UAE',
+    period: 'Apr 2022 – Present',
     description: [
-      "Drive significant advancements in digital transformation across various sectors, including Web3 and Blockchain technologies",
-      "Lead cross-functional teams to execute high-impact digital transformations in IoT and Web3, enhancing operational efficiency",
-      "Spearhead the development of innovative architectures, transforming monolithic systems to microservices, resulting in increase in system performance",
-      "Successfully orchestrated digital transformations that significantly improved system performance and operational efficiency"
+      'Own end-to-end platform infrastructure for an on-premise VMware vCenter data center, codifying VM provisioning, inter-VM network setup, and firewall configuration entirely in Terraform.',
+      'Manage Cloudflare as code through Terraform, covering DNS records, DDoS protection, CAPTCHA and bot-management policies, and edge network security controls.',
+      'Standardize post-provisioning VM configuration with Ansible, maintaining role-specific baselines so each host is built correctly for its purpose, whether application runtime or database node.',
+      'Run all Kubernetes deployments through ArgoCD GitOps, replacing imperative deploy scripts with declarative, version-controlled, auditable release workflows.',
+      'Operate CI/CD on Bitbucket Pipelines with self-hosted Bitbucket Runners, giving builds secure direct access to on-premise infrastructure.',
+      'Deploy serverless and edge workloads to Vercel and AWS, integrating them into the same pipeline, DNS, and security perimeter as the on-premise estate.',
+      'Build agentic AI on the platform: an Agentic RAG customer support service backed by a vector database knowledge base and multiple retrieval tools.',
+      'Integrate an AI agent into Kubernetes capacity management, driving horizontal pod autoscaling and adjusting vertical pod resource requests and limits as demand shifts.',
+      'Drive AI-assisted development across the team using GitHub Copilot, Claude, and Lovable to materially increase delivery throughput.',
+      'Lead migration of monolithic systems to microservices and cloud-native architectures with minimal disruption, and manage distributed cross-functional teams across time zones using Scrum and Kanban.'
     ],
-    technologies: ["Web3", "Blockchain", "IoT", "Microservices", "Digital Transformation", "System Architecture"]
+    technologies: ['Terraform', 'Ansible', 'Kubernetes', 'ArgoCD', 'Bitbucket Pipelines', 'Cloudflare', 'AWS', 'Vercel', 'Agentic AI', 'GitOps']
   },
   {
-    title: "Technical Lead",
-    company: "Bites Worldwide",
-    location: "Dubai, United Arab Emirates",
-    period: "Jun 2019 - Apr 2022 · 2 yrs 11 mos",
+    title: 'IT Tech Lead / Senior Software Engineer',
+    company: 'Bitex Worldwide',
+    location: 'Dubai, UAE',
+    period: 'Jun 2019 – Apr 2022',
     description: [
-      "Directed a cross-functional team to elevate the development and deployment of web and mobile applications",
-      "Led a cross-functional team in enhancing web and mobile application development, focusing on DevOps practices",
-      "Spearheaded the development of a high-performance trading platform for both Crypto and Forex markets",
-      "Implemented streamlined deployment processes, resulting in reduction in time-to-market for new features",
-      "Enhanced DevOps practices, resulting in faster deployment cycles and improved team collaboration"
+      'Introduced automated CI/CD with GitHub Actions deploying to DigitalOcean droplets, replacing manual release steps and shortening time-to-market for new features.',
+      'Adopted Kubernetes for backend services in 2020 and led the full migration of all applications onto Kubernetes by 2021, standardizing orchestration, rollout, and autoscaling platform-wide.',
+      'Ran Jenkins pipelines and AWS infrastructure alongside for build automation, hosting, and environment management.',
+      'Integrated Cloudflare for DNS management and DDoS protection across public trading endpoints, hardening the platform against volumetric and application-layer attacks.',
+      'Led a cross-functional team delivering a high-performance crypto and forex trading platform supporting high-frequency transaction volumes.',
+      'Delivered crypto and payment gateway integrations, on-chain and off-chain settlement flows, and NFT minting on Ethereum and Polygon, meeting PCI and KYC/KYT compliance requirements.',
+      'Embedded DevOps practices across the engineering team, shifting deployment ownership left and improving release cadence.'
     ],
-    technologies: ["Mobile Applications", "Web Development", "DevOps", "Trading Platforms", "Crypto", "Forex"]
+    technologies: ['GitHub Actions', 'Kubernetes', 'Jenkins', 'AWS', 'Cloudflare', 'Crypto', 'Forex', 'NFT', 'PCI', 'KYC']
   },
   {
-    title: "Senior Software Engineer",
-    company: "Objects By Design",
-    location: "New York (Remote Working)",
-    period: "2018 - 2019",
+    title: 'Senior Software Engineer',
+    company: 'Objects By Design',
+    location: 'New York, USA (Remote from Gujarat, India)',
+    period: 'Jul 2017 – Jun 2019',
     description: [
-      "Focused on innovative solutions for home security and educational applications",
-      "Led the development of a mobile app using Flutter, enhancing user experience in online learning",
-      "Improved the Google Cloud Client Library for Python, which streamlined data management processes for better performance",
-      "Developed a comprehensive Home Security System to enhance user data tracking through advanced analytics and machine learning algorithms"
+      'Built and deployed Django REST Framework backends with Angular and Vue.js frontends, and delivered cross-platform iOS and Android applications in Flutter.',
+      'Established CI/CD pipelines on GitHub, automating build, test, and release for backend services and frontend applications.',
+      'Ran Linux deployments on Apache with mod_wsgi, later migrating to Nginx with Gunicorn for Django services and Nginx as the serving target for frontend production builds.',
+      'Owned mobile release operations end to end, managing signing, versioning, and publication to the Google Play Store and Apple App Store.',
+      'Delivered a home security system with advanced sensor integration for user data tracking, and a Flutter application for an online teaching platform.',
+      'Contributed enhancements to the Google Cloud Bigtable Python client library, optimizing data retrieval workflows.'
     ],
-    technologies: ["Flutter", "Python", "Google Cloud", "Machine Learning", "Mobile Development", "Security Systems"]
+    technologies: ['Django', 'Angular', 'Vue.js', 'Flutter', 'GitHub', 'Nginx', 'Gunicorn', 'Google Cloud', 'Mobile Releases']
   },
   {
-    title: "Software Engineer",
-    company: "Wingreens Technologies",
-    location: "India",
-    period: "2016 - 2018",
+    title: 'Senior Software Engineer / Software Engineer',
+    company: 'Wingmaxx Technologies',
+    location: 'Surat, Gujarat, India',
+    period: 'Jul 2015 – Jul 2017',
     description: [
-      "Specialized in Laravel and Django frameworks for robust web application development",
-      "Enhanced user experience and ensuring seamless integration across platforms",
-      "Developed and maintained web applications using Laravel PHP and Django Python Frameworks, enhancing system efficiency",
-      "Designed and implemented RESTful APIs with Django, improving data accessibility and integration",
-      "Collaborated with cross-functional teams to deliver high-quality software solutions, contributing to project success"
+      'Owned application deployment and server management across WHM/cPanel environments and bare Linux hosts, running releases end to end.',
+      'Configured and tuned Apache2 and Nginx for frontend delivery, WSGI and Gunicorn for Django services, and FastCGI with Apache for Laravel PHP applications.',
+      'Adopted AWS from 2016, deploying with Lambda and DynamoDB while administering IAM, EC2, security groups, and VPC network configuration alongside MySQL and DynamoDB across multiple application environments.',
+      'Developed and maintained web applications and RESTful APIs using Laravel (PHP) and Django (Python).',
+      'Hired and managed developer teams from Aug 2016, owning technical direction, code quality standards, and delivery timelines.'
     ],
-    technologies: ["Laravel", "Django", "PHP", "Python", "RESTful APIs", "Web Development"]
-  },
-  {
-    title: "Graduate Trainee",
-    company: "Air India",
-    location: "Mumbai",
-    period: "Jul 2013 - Jul 2013 · 1 mo",
-    description: [
-      "Professional training at Air India Limited as part of graduate development program",
-      "Gained exposure to aviation industry operations and technical systems"
-    ],
-    technologies: ["Aviation Systems", "Technical Operations"]
-  },
-  {
-    title: "Industrial Trainee",
-    company: "Essar Group",
-    location: "Daman",
-    period: "Jun 2012 - Jul 2012 · 2 mos",
-    description: [
-      "Industrial training at Essar Group focusing on engineering processes and industrial operations",
-      "Hands-on experience with industrial systems and manufacturing processes"
-    ],
-    technologies: ["Industrial Systems", "Manufacturing", "Engineering Processes"]
+    technologies: ['AWS', 'Lambda', 'DynamoDB', 'Laravel', 'Django', 'PHP', 'Python', 'WHM/cPanel', 'Nginx', 'Apache2']
   }
 ]
 
@@ -86,7 +74,7 @@ export default function Experience() {
         <h2 className="text-4xl font-bold text-center text-white mb-12">
           Professional Experience
         </h2>
-        
+
         <div className="max-w-4xl mx-auto">
           <div className="space-y-8">
             {experiences.map((exp, index) => (
@@ -113,7 +101,7 @@ export default function Experience() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="mb-6">
                   <h4 className="text-lg font-semibold text-white mb-3 flex items-center gap-2">
                     <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
@@ -128,7 +116,7 @@ export default function Experience() {
                     ))}
                   </ul>
                 </div>
-                
+
                 <div>
                   <h4 className="text-lg font-semibold text-white mb-3 flex items-center gap-2">
                     <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
@@ -136,7 +124,7 @@ export default function Experience() {
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     {exp.technologies.map((tech, idx) => (
-                      <span 
+                      <span
                         key={idx}
                         className="px-3 py-1.5 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 text-cyan-300 border border-cyan-500/30 rounded-full text-sm font-medium hover:from-cyan-500/30 hover:to-blue-500/30 transition-all"
                       >
