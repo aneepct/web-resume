@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://aneep-tandel.vercel.app'),
+  metadataBase: new URL('https://aneep.tech'),
   title: 'Aneep Tandel | Senior Platform Engineer | DevOps & Cloud Infrastructure',
   description:
     'Aneep Tandel is a Senior Platform Engineer and DevOps specialist with 10+ years experience in Kubernetes, Terraform, Ansible, ArgoCD, AWS, Cloudflare, and AI-driven infrastructure automation in UAE.',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: 'Aneep Tandel | Senior Platform Engineer',
     description:
       'Platform and infrastructure engineer specializing in Kubernetes, Terraform, GitOps, CI/CD, cloud-native architecture, and AI-driven automation.',
-    url: 'https://aneep-tandel.vercel.app',
+    url: 'https://aneep.tech',
     siteName: 'Aneep Tandel',
     type: 'website',
     locale: 'en_US',
